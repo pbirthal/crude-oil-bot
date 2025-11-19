@@ -4,7 +4,7 @@ import os
 import sys
 
 # --- CONFIGURATION ---
-SYMBOL = 'WTI/USD'  # TwelveData uses this format for Crude Oil Spot
+SYMBOL = 'CL1'  # TwelveData uses this format for Crude Oil Spot
 INTERVAL = '1h'
 RSI_PERIOD = 14
 
@@ -116,3 +116,4 @@ def check_market():
 
 if __name__ == "__main__":
     check_market()
+
